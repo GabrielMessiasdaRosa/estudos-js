@@ -63,13 +63,4 @@ const resultado = numeros.map(soma10).map(triplo).map(converteParaReal);
 console.log(
   `Valores transformados com sucesso, sem nenhum erro:  \n${resultado}\n `
 );
-const usuarios = {
-  user1: "Gabriel",
-  user2: "Leonardo",
-  user3: "Mario",
-};
-const nomes = numeros
-  .map((numerosParaNomes) => (numerosParaNomes = [usuarios]))
-  .slice(6, 8);
 
-console.log(`Transformamos o array de numeros para nomes de usuarios \n ${nomes.user1} \n`);
