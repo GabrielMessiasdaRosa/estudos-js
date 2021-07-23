@@ -21,7 +21,7 @@ console.log(triplo(2))
 
 // com arrow func podemos reduzir mais um pouco. 
 // se tivermos um unico parametro, que é o nosso caso, podemos tirar os parenteses do paramentro
-dobro = a => { 
+dobro = a => {
     return 2 * a;
 }
 
@@ -35,10 +35,9 @@ dobro = a => 2 * a // return implicito
 
 // no dia a dia fazemos funçoes tao especialistas e pequenas que fazem coisas interessantes. Assim, podemos 
 // usar arrow functions sem mesmo definir um corpo e isso te ajuda a ter um codigo mais funcional, fazendo 
-// composiçoes de funçoes e te força a ter fuçoes especificas e muito reutilizadas 
+// composiçoes de funçoes e te forçando a ter fuçoes especificas e muito reutilizadas 
 
 // outro exemplo 
-
 let hello = function ({/* sem parametros */}){
     return "Ola"
 }
